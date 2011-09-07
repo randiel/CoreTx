@@ -1,0 +1,33 @@
+
+html, body {
+	font: normal 12px verdana;			
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+	overflow: hidden;
+	height: 100%;
+}
+
+h1{
+	font-size: 32px; 
+	color:#EEEEEE; 
+	font-family:arial; 
+	text-decoration: ; 
+	text-align: left
+} 
+
+h2{	
+	font-size: 16px; 
+	color:#BED9EA; 
+	font-family:Trebuchet MS; 
+	text-decoration: ; 
+	text-align: left
+} 
+
+h4{
+	font-size: 10px; 
+	color:#BED9EA; 
+	font-family:verdana; 
+	text-decoration: ; 
+	text-align: left
+} 

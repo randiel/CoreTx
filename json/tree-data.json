@@ -1,0 +1,16 @@
+[{
+    text:'Sr. Juan Carlos Gonzales',
+	icon:'/images/padres.png',
+    expanded: true,	
+    children:[{
+        text:'Jose Gonzales Farfan',
+        id:'hijo01',
+		icon:'/images/alumnos.png',		
+        leaf:true
+    },{
+        text:'Maria Luz Gonzales Farfan',
+        id:'hijo02',		
+		icon:'/images/alumnos.png',
+        leaf:true
+    }]
+}]

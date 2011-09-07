@@ -1,0 +1,20 @@
+@page {
+	size: A4 portrait;
+	margin: 5%;
+}
+
+div {
+	display: none;
+}
+
+.reporte {
+	display: block;
+	float: none;
+	position: static;
+}
+
+.page-break {
+	display: block;
+	page-break-before: always;
+}
+	

@@ -1,0 +1,350 @@
+/*
+ * Ext JS Library 2.3.0
+ * Copyright(c) 2006-2009, Ext JS, LLC.
+ * licensing@extjs.com
+ * 
+ * http://extjs.com/license
+ */
+
+/*===================================
+/*   Basic page styles
+/*===================================*/
+
+body {
+    font-family:'lucida grande',tahoma,arial,sans-serif;
+    font-size:11px;
+}
+
+h2	{
+	font-size: 12px; 
+	color:#BED9EA; 
+	font-family:Trebuchet MS; 
+	text-align: left
+} 
+
+h4	{
+	font-size: 8px; 
+	color:#BED9EA; 
+	font-family:verdana; 
+	text-decoration: ; 
+	text-align: left
+} 
+
+.txt-form {
+	padding: 25px;
+}		
+
+a {
+    color:#15428B;
+}
+a:link, a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+#header {
+    /*background: #7F99BE url(images/layout-browser-hd-bg.gif) repeat-x center; */
+}
+#header h1 {
+	font-size: 20px; 
+	color:#EEEEEE; 
+	font-family:arial; 
+	text-decoration: ; 
+	text-align: left;
+}
+#start-div h2 {
+    font-size: 12px;
+    color: #555;
+    padding-bottom:5px;
+    border-bottom:1px solid #C3D0DF;
+}
+#start-div p {
+    margin: 10px 0;
+}
+#details-panel h2 {
+    padding:10px 10px 0;
+    font-size:12px;
+    color:#15428B;
+}
+#details-panel p {
+    padding:10px 10px 0;
+}
+#details-panel pre {
+    border-top:1px dotted #ddd;
+    border-bottom:1px dotted #ddd;
+    margin-top:10px;
+    padding:0 5px;
+    background:#f5f5f5;
+}
+#details-panel .details-info {
+    margin:15px;
+    padding:15px;
+    border:1px dotted #999;
+    color:#555;
+    background: #f9f9f9;
+}
+
+/*===================================
+/*   Customized layout styles
+/*===================================*/
+
+table.x-table-lista {
+   border-collapse: collapse;   
+   width: 100%;
+}
+table.x-table-lista tr {
+   border: 1px solid #ccc;   
+}
+table.x-table-lista td a{
+   display: block;
+   /*width: 100%;*/
+   font-size: 10px;
+   padding: 3px;
+   text-decoration: none;
+   height: 70px;
+}
+table.x-table-lista td a:link, table.x-table-lista td a:visited {
+   color: #000;
+   background-color: #fff;
+}
+table.x-table-lista td a:hover, table.x-table-lista td a:active {
+   color: #000;
+   background-color: #CCFFCC;
+   text-decoration: none;
+}
+
+
+/* Remove the border around the tabs and override the default white background: */
+.x-tab-panel-header-plain .x-tab-strip-top {
+    background: #DFE8F6 url(../images/default/tabs/tab-strip-bg.gif) repeat-x scroll center bottom !important;
+}
+
+.x-plain{
+	height: 100%;
+}
+
+.x-panelc{
+	overflow-x:hidden;
+	overflow-y:auto;
+}
+
+.x-date-right, .x-date-left {
+    height:16px;
+}
+
+.x-date-right a {
+    float:right;
+}
+
+.x-date-tag {
+	background: #ff0000;
+}
+.x-date-free {
+	background: #00ff00;
+}
+.x-date-dispo {
+	background: #98fb98;
+}
+
+
+/* Custom CSS applied to a single panel in an accordion: */
+.custom-accordion .x-panel-body {
+    font-family:georgia,serif;
+    padding:20px 80px !important;
+    background:#ffe;
+    font-size:18px;
+    text-align:center;
+    color:#15428B;
+}
+.custom-accordion .x-panel-header-text {
+    font-weight:bold;
+    /*font-style:italic;*/
+    color:#555;
+}
+
+/* Custom style for the FormLayout footer so that it integrates into the border layout nicely: */
+#form-panel .x-panel-footer {
+    background:#DFE8F6;
+    border-color:#99BBE8;
+    border-style:none solid solid;
+    border-width:0pt 1px 1px;
+}
+
+/* Customize the TableLayout html using standard CSS rules: */
+#table-panel .x-table-layout {
+    padding:5px;
+}
+#table-panel .x-table-layout td {
+    vertical-align:top;
+    padding:5px;
+    font-size: 11px;
+}
+
+.msg .x-box-mc {
+    font-size:14px;
+}
+#msg-div {
+    position:absolute;
+    left:35%;
+    top:10px;
+    width:250px;
+    z-index:20000;
+}
+/* Toolbar icons for absolute form example: 
+.x-btn-bigicon .x-btn-center .x-btn-text
+{
+   /*background-image: url(images/aceptar32.png) !important;
+	background-position:center;
+    background-repeat:no-repeat;
+    height:32px;
+    width:32px;
+    cursor:pointer;
+    white-space:nowrap;
+    padding:0;
+}
+*/
+
+.citaPen {
+	background-image: url( ../images/citapen32.png ) !important;
+}
+
+.regCita {
+	background-image: url( ../images/addCita32.png ) !important;
+}
+
+.canCita {
+	background-image: url( ../images/cancelar32.png ) !important;
+}
+
+.envSoli {
+	background-image: url( ../images/edit32.png ) !important;
+}
+
+.actDatos {
+	background-image: url( ../images/actualizar32.png ) !important;
+}
+
+.home {
+	background-image: url( ../images/home32.png ) !important;
+}
+
+.email {
+	background-image: url( ../images/email32.png ) !important;
+}
+
+.fin {
+	background-image: url( ../images/salir32.png ) !important;
+}
+
+.add16 {
+    background-image: url( ../images/aceptar32.png ) !important;
+}
+
+.add {
+    background-image: url( ../images/aceptar32.png ) !important;
+}
+
+.blist {
+    background-image: url(../images/list-items.gif) !important;
+}
+
+.bmenu {
+    background-image: url(../images/menu-show.gif) !important;
+}
+
+.icon-send {
+    background-image:url(../images/email_go.png) !important;
+}
+.icon-save {
+    background-image:url(../images/disk.png) !important;
+}
+.icon-print {
+    background-image:url(../images/printer.png) !important;
+}
+.icon-spell {
+    background-image:url(../images/spellcheck.png) !important;
+}
+.icon-attach {
+    background-image:url(../images/page_attach.png) !important;
+}
+/* Custom rule to make the toolbar fit within a framed panel with no margin: */
+.email-form .x-panel-mc .x-panel-tbar .x-toolbar {
+    border-top:1px solid #C2D6EF;
+    border-left:1px solid #C2D6EF;
+    border-bottom:1px solid #99BBE8;
+    margin:-5px -4px 0;
+}
+
+/* Custom styles for the "Tabs with nested layouts" example: */
+.inner-tab-custom .x-border-layout-ct {
+    background: #fff;
+}
+
+/*===================================
+/*  Rules for custom ux layouts
+/*====================================*/
+/* 
+ * Ext.ux.layout.CenterLayout
+ */
+.ux-layout-center-item {
+    margin:0 auto;
+    text-align:left;
+}
+.ux-layout-center .x-panel-body,  /* if the container is a panel */
+body.ux-layout-center {           /* if the container is the doc body (for viewport) */
+    text-align:center;
+}
+
+
+/*
+ * Ext JS Library 2.3.0
+ * Copyright(c) 2006-2009, Ext JS, LLC.
+ * licensing@extjs.com
+ * 
+ * http://extjs.com/license
+ */
+
+#container {
+    width:600px;
+    height:300px;
+    border:3px solid #c3daf9;
+}
+
+.calendar {
+    background-image:url(../../resources/images/default/shared/calendar.gif) !important;
+}
+
+.blist {
+    background-image: url(list-items.gif) !important;
+}
+
+.bmenu {
+    background-image: url(menu-show.gif) !important;
+}
+
+.menu-title{
+    background: #ebeadb url(../../resources/images/default/grid/grid3-hrow.gif) repeat-x;
+    border-bottom:1px solid #99bbe8;
+    color:#15428b;
+    font:bold 10px tahoma,arial,verdana,sans-serif;
+    display:block;
+    padding:3px;
+}
+
+/*
+.align-right .x-form-item {
+	text-align: right;
+	padding-right: 25px;
+}
+.align-right label {
+			text-align: left;
+}*/
+
+#divReporte {
+	display: none; 
+} 
+
+.page-break {
+	display: none;
+}
