@@ -1,12 +1,10 @@
 Site navigator
 ==============
 
-Descripcion    :
+Description    :
 =======
-Permite crear un mapa del web site y navegar a traves de el segun el par (evento, nodo) registrado en el mapa.
-Esta clase pretende navegar por un conjunto de archivos tipo plnatilla HTML
-usando un mapa guardado en un array PHP
-
+Renders a sitemap traversing (event, node)
+currently it is rendering html templates on an array although this will change in the future
 
 
 Site navigator
