@@ -1,8 +1,9 @@
 Site navigator
 ==============
 
-Descripcion    : Permite crear un mapa del web site y navegar a traves de él segun el par (evento, nodo) registrado en el mapa.
+Descripcion    :
 =======
+Permite crear un mapa del web site y navegar a traves de el segun el par (evento, nodo) registrado en el mapa.
 Esta clase pretende navegar por un conjunto de archivos tipo plnatilla HTML
 usando un mapa guardado en un array PHP
 
@@ -23,11 +24,17 @@ Casos de uso:
 
 siteConfig : parametros globales del site.
 arbolServicio : Mapa del sitio, registra el evento del 
-visitante y asigna el nodo siguiente de la navegacion. eventListener : Ejecuta la rutina mysql y 
-renderea el siguiente nodo del site. navigatorWeb : Permite dirigir la navegacion del visitante segun 
-el mapa arbolServicio. screenEngine : Renderea plantillas HTML con variables internas bajo la notacion 
-<<variable>>. templateLoader : Carga el archivo HTML que corresponde al nodo actual. eventListener : 
-Ejecuta la rutina mysql y renderea el siguiente nodo del site. navigatorWeb : Permite dirigir la 
+visitante y asigna el nodo siguiente de la navegacion.
+eventListener : Ejecuta la rutina mysql y 
+renderea el siguiente nodo del site.
+navigatorWeb : Permite dirigir la navegacion del visitante segun 
+el mapa arbolServicio.
+screenEngine : Renderea plantillas HTML con variables internas bajo la notacion 
+<<variable>>.
+templateLoader : Carga el archivo HTML que corresponde al nodo actual
+eventListener : 
+Ejecuta la rutina mysql y renderea el siguiente nodo del site.
+navigatorWeb : Permite dirigir la 
 navegacion del visitante segun el mapa arbolServicio.
 
 screenEngine   : Renderea plantillas HTML con variables internas bajo la notacion <<variable>>.
